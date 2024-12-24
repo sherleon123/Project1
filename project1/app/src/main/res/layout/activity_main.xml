@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="@dimen/default_margin_bottom"
+        android:layout_marginLeft="@dimen/default_margin"
+
+        >
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/main_IMG_charachter1"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_weight="1" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/main_IMG_charachter2"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_marginHorizontal="@dimen/default_margin"
+            android:layout_weight="1" />
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/main_IMG_charachter3"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_weight="1" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="@dimen/hearts_layout_width"
+        android:layout_height="@dimen/hearts_height"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layoutDirection="ltr"
+        android:layout_marginTop="@dimen/default_margin"
+        android:layout_marginLeft="@dimen/default_margin"
+
+        >
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/main_IMG_heart1"
+            android:layout_height="@dimen/heart_size"
+            android:layout_marginHorizontal="@dimen/heart_apart"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/heart"
+            />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/main_IMG_heart2"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/heart_size"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/heart" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/main_IMG_heart3"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/heart_size"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/heart" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="@dimen/default_margin_bottom"
+        android:layout_marginTop="@dimen/default_margin_vertical"
+        android:visibility="visible"
+        android:layoutDirection="ltr"
+        android:layout_marginLeft="@dimen/margin_verical1">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp">
+
+
+        <!-- First Image -->
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/main_IMG_sugar11"
+                android:layout_width="@dimen/sugar_default"
+                android:layout_height="@dimen/sugar_default"
+                android:layout_weight="1" />
+
+        <!-- Second Image -->
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/main_IMG_sugar12"
+                android:layout_width="@dimen/sugar_default"
+                android:layout_height="@dimen/sugar_default"
+                android:layout_weight="1" />
+
+        <!-- Third Image -->
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/main_IMG_sugar13"
+                android:layout_width="@dimen/sugar_default"
+                android:layout_height="@dimen/sugar_default"
+                android:layout_weight="1" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/main_IMG_sugar14"
+                android:layout_width="@dimen/sugar_default"
+                android:layout_height="@dimen/sugar_default"
+                android:layout_weight="1" />
+
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/main_IMG_sugar15"
+                android:layout_width="@dimen/sugar_default"
+                android:layout_height="@dimen/sugar_default"
+                android:layout_weight="1"
+                />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginHorizontal="80dp"
+            android:layout_marginLeft="40dp">
+
+        <!-- First Image -->
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/main_IMG_sugar21"
+                android:layout_width="@dimen/sugar_default"
+                android:layout_height="@dimen/sugar_default"
+                android:layout_weight="1" />
+
+        <!-- Second Image -->
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/main_IMG_sugar22"
+                android:layout_width="@dimen/sugar_default"
+                android:layout_height="@dimen/sugar_default"
+                android:layout_weight="1" />
+
+        <!-- Third Image -->
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/main_IMG_sugar23"
+                android:layout_width="@dimen/sugar_default"
+                android:layout_height="@dimen/sugar_default"
+                android:layout_weight="1" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/main_IMG_sugar24"
+                android:layout_width="@dimen/sugar_default"
+                android:layout_height="@dimen/sugar_default"
+                android:layout_weight="1" />
+
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/main_IMG_sugar25"
+                android:layout_width="@dimen/sugar_default"
+                android:layout_height="@dimen/sugar_default"
+                android:layout_weight="1" />
+
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp">
+
+            <!-- First Image -->
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/main_IMG_sugar31"
+                android:layout_width="@dimen/sugar_default"
+                android:layout_height="@dimen/sugar_default"
+                android:layout_weight="1" />
+
+            <!-- Second Image -->
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/main_IMG_sugar32"
+                android:layout_width="@dimen/sugar_default"
+                android:layout_height="@dimen/sugar_default"
+                android:layout_weight="1" />
+
+            <!-- Third Image -->
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/main_IMG_sugar33"
+                android:layout_width="@dimen/sugar_default"
+                android:layout_height="@dimen/sugar_default"
+                android:layout_weight="1" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/main_IMG_sugar34"
+                android:layout_width="@dimen/sugar_default"
+                android:layout_height="@dimen/sugar_default"
+                android:layout_weight="1" />
+
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/main_IMG_sugar35"
+                android:layout_width="@dimen/sugar_default"
+                android:layout_height="@dimen/sugar_default"
+                android:layout_weight="1" />
+
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/default_margin_bottom"
+        android:layout_alignParentBottom="true"
+        android:layoutDirection="ltr"
+        android:gravity="center"
+
+        >
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/main_BTN_left"
+            android:drawableLeft="@drawable/arrow_left"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            />
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/main_BTN_right"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawableRight="@drawable/arrow_right"
+        android:background="@android:color/transparent" />
+
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/main_LBL_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="@dimen/default_margin"
+        android:layout_marginLeft="@dimen/default_margin"
+        android:textSize="@dimen/default_text_size"
+        android:textStyle="bold"
+        tools:text="000" />
+
+</RelativeLayout>
