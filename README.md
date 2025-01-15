@@ -22,5 +22,5 @@ Hearts Array: Represents Yuval’s remaining lives.<br />
 
 ### Record Activity: this is were the top ten records are presented.<br />
 Fragments: High Score Fragment (the scores), Map Fragment (The google maps and location of record achived).<br />
-pressing each record button zooms in the map fragment and show where the record was achived.<br />
-pressing each dot of the map shows which record was achived there.<br />
+Pressing each record button zooms in the map fragment and show where the record was achived.<br />
+Pressing each pin of the map shows which record was achived there.<br />
