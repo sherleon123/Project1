@@ -3,7 +3,8 @@ This is a game project for a coding course using android studio(kotlin) about a 
 
 ## Game description:
 Yuval is the main character and he tries to avoid the sugar packets while gathering money bags.
-The money bags are totalled to a score. The top ten scores are saved and the player can view the geographical places where they were set on a map.
+The money bags are totalled to a score. The top ten scores are saved and the player can view the geographical places where they were set on a map.<br />
+hitting a sugar packet causes vibration a toast pop up and a sound.
 
 
 App Description: The app consists of three activities:
