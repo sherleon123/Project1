@@ -1,20 +1,26 @@
-This is a game project for a course of coding using android studio(kotlin)
-its about a famous children figure yuval
-Game description:
-yuval is the main character and he tries to avoid the sugar packets while gathering money bags
-the money bags are totalled and is saved as a record if its in the top ten scores and enables the player to see where the recordes were set
+## Introduction
+This is a game project for a coding course using android studio(kotlin) about a famous children's figure Yuval.
+
+## Game description:
+Yuval is the main character and he tries to avoid the sugar packets while gathering money bags.
+The money bags are totalled to a score. The top ten scores are saved and the player can view the geographical places where they were set on a map.
 
 
 App Description: The app consists of three activities:
 
-Menu Activity: Includes four buttons: Slow to start the game with a set speed set to slow with buttons to change the lane, Fast to start the game with a set speed set to fast with buttons to change the lane, Tilt to start the game with a changing speed that is conttroled by tillting the phone vertically and horizontally to change the lanes corresponding to the way that its tillted, Scores to go to the scoreScreen and see the top ten scores since the download and where they were achived.
+### Menu Activity: Includes four buttons:<br />
+Slow- to start the game with a set speed set to slow with buttons to change the lane.<br />
+Fast- to start the game with a set speed set to fast with buttons to change the lane.<br />
+Tilt- to start the game with a changing speed that is conttroled by tillting the phone vertically(down to increase speed up to reduce speed) and horizontally to change the lanes corresponding to the way that its tillted.<br />
+Scores- to go to the scoreScreen and see the top ten scores since the download and where they were achived.<br />
 
-Main Activity: This is where the game is played and includes: Grid Objects: Obstacles (Sugar), coins (Bags of money)).
-Score: Displays the player's current score and distance counter.
-Movement Buttons: If chosen button mode for the movment of yuval.
-Hearts Array: Represents yuval’s remaining lives.
+### Main Activity: This is where the game is played and includes:<br />
+Grid Objects: Obstacles (Sugar sprite), Coins (Bags of money sprite).<br />
+Score: Displays the player's current score and distance counter.<br />
+Movement Buttons: Visible only if button mode was chosen, in that case controls Yuval's movement .<br />
+Hearts Array: Represents Yuval’s remaining lives.<br />
 
-Record Activity: this is were the top ten records are presented
-Fragments: High Score Fragment (the scores), Map Fragment (The google maps and location of record achived)
-pressing each record button zooms in the map fragment and show where the record was achived,
-pressing each dot of the map shows which record was achived there
+### Record Activity: this is were the top ten records are presented.<br />
+Fragments: High Score Fragment (the scores), Map Fragment (The google maps and location of record achived).<br />
+pressing each record button zooms in the map fragment and show where the record was achived.<br />
+pressing each dot of the map shows which record was achived there.<br />
